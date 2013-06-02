@@ -72,11 +72,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LinkedinScopedClient.cs" />
     <Compile Include="FacebookScopedClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\Facebook\Picture.cs" />
     <Compile Include="Utilities\Facebook\Data.cs" />
     <Compile Include="Utilities\Facebook\LoginData.cs" />
+    <Compile Include="Utilities\Linkedin\AccessTokenResponse.cs" />
+    <Compile Include="Utilities\Linkedin\BasicProfile.cs" />
+    <Compile Include="Utilities\Linkedin\SiteStandardProfileRequest.cs" />
     <Compile Include="Utilities\String.cs" />
   </ItemGroup>
   <ItemGroup>
